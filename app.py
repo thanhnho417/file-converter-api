@@ -32,12 +32,15 @@ def convert_img():
 
 @app.route("/convert/audio", methods=["POST"])
 def convert_aud():
-    file = request.files['file']
-    output_format = request.form['format']
-    input_path = os.path.join(UPLOAD_FOLDER, file.filename)
-    file.save(input_path)
-    output_path = convert_audio(input_path, output_format)
-    return send_file(output_path, as_attachment=True)
+    try:
+        file = request.files['file']
+        output_format = request.form['format']
+        input_path = os.path.join(UPLOAD_FOLDER, file.filename)
+        file.save(input_path)
+        output_path = convert_audio(input_path, output_format)
+        return send_file(output_path, as_attachment=True)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 @app.route("/convert/video", methods=["POST"])
 def convert_vid():
