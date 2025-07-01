@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: full-converter-api
+    name: ffmpeg-only-converter
     env: python
     buildCommand: |
       apt-get update

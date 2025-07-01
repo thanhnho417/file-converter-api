@@ -15,7 +15,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 @app.route("/")
 def home():
-    return {"status": "API full converter ready"}
+    return {"status": "FFmpeg-based API running"}
 
 @app.route("/ping")
 def ping():
@@ -63,3 +63,6 @@ def convert_ocr():
     file.save(input_path)
     result = extract_text(input_path)
     return jsonify({"text": result})
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))

@@ -1,8 +1,11 @@
-from pydub import AudioSegment
-AudioSegment.converter = "ffmpeg"
+import ffmpeg
 
 def convert_audio(input_path, output_format):
-    audio = AudioSegment.from_file(input_path)
     output_path = input_path.rsplit('.', 1)[0] + '.' + output_format
-    audio.export(output_path, format=output_format)
+    (
+        ffmpeg
+        .input(input_path)
+        .output(output_path)
+        .run(overwrite_output=True)
+    )
     return output_path

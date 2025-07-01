@@ -1,7 +1,11 @@
-import subprocess
-import os
+import ffmpeg
 
 def convert_video(input_path, output_format):
     output_path = input_path.rsplit('.', 1)[0] + '.' + output_format
-    subprocess.call(['ffmpeg', '-i', input_path, output_path])
+    (
+        ffmpeg
+        .input(input_path)
+        .output(output_path)
+        .run(overwrite_output=True)
+    )
     return output_path
