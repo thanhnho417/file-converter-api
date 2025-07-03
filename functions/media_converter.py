@@ -34,14 +34,14 @@ def convert_with_ffmpeg(input_path, output_format, is_audio=True):
             else:
                 raise Exception(f'Định dạng âm thanh không hỗ trợ: {output_format}')
         else:
-            if output_format == 'mp3':
-                stream = ffmpeg.output(stream, output_path, format='mp3', acodec='libmp3lame', audio_bitrate='192k')
-            elif output_format == 'flac':
-                stream = ffmpeg.output(stream, output_path, format='flac', acodec='flac')
-            elif output_format == 'wav':
-                stream = ffmpeg.output(stream, output_path, format='wav', acodec='pcm_s16le')
+            if output_format == 'mp4':
+                stream = ffmpeg.output(stream, output_path, format='mp4', vcodec='libx264', acodec='aac')
+            elif output_format == 'mkv':
+                stream = ffmpeg.output(stream, output_path, format='matroska', vcodec='libx264', acodec='aac')
+            elif output_format == '3gp':
+                stream = ffmpeg.output(stream, output_path, format='3gp', vcodec='h263', acodec='aac')
             elif output_format == 'ogg':
-                stream = ffmpeg.output(stream, output_path, format='ogg', acodec='libvorbis')
+                stream = ffmpeg.output(stream, output_path, format='ogg', vcodec='libtheora', acodec='libvorbis')
             else:
                 raise Exception(f'Định dạng video không hỗ trợ: {output_format}')
 
