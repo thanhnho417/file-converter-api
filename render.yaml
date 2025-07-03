@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: ffmpeg-only-converter
-    env: python
-    buildCommand: |
-      apt-get update
-      apt-get install -y ffmpeg poppler-utils tesseract-ocr
-      pip install -r requirements.txt
-    startCommand: python app.py

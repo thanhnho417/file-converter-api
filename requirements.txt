@@ -1,6 +1,0 @@
-flask
-flask-cors
-pillow
-ffmpeg-python
-pdf2image
-pytesseract
