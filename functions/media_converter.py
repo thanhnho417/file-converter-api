@@ -38,15 +38,11 @@ def convert_with_ffmpeg(input_path, output_format, is_audio=True):
                 stream = ffmpeg.output(stream, output_path, format='mp4', vcodec='libx264', acodec='aac')
             elif output_format == 'mkv':
                 stream = ffmpeg.output(stream, output_path, format='matroska', vcodec='libx264', acodec='aac')
-            elif output_format == '3gp':
-                stream = ffmpeg.output(stream, output_path, format='3gp', vcodec='h263', acodec='aac')
-            elif output_format == 'ogg':
-                stream = ffmpeg.output(stream, output_path, format='ogg', vcodec='libtheora', acodec='libvorbis')
             else:
                 raise Exception(f'Định dạng video không hỗ trợ: {output_format}')
 
         
-        ffmpeg.run(stream, quiet=True, overwrite_output=True)
+        ffmpeg.run(stream, quiet=False, overwrite_output=True)
         
         with open(output_path, 'rb') as f:
             return io.BytesIO(f.read())
