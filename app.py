@@ -19,6 +19,14 @@ SUPPORTED_FORMATS = {
     'video': ['mp4', 'mkv', '3gp']
 }
 
+@app.route('/')
+def home():
+    return jsonify({
+        'status': 'ready',
+        'message': 'Ready to break'
+    })
+
+
 @app.route('/convert', methods=['POST'])
 def convert_media():
     files = request.files.getlist('files')
