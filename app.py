@@ -16,7 +16,7 @@ from functions.youtube_get_info import changetime
 app = Flask(__name__)
 CORS(app)
 
-mainserver = 'https://file-converter-api-ugp0.onrender.com'
+mainserver = 'https://literate-space-fishstick-qwqvpw965xq2974j-5000.app.github.dev'
 
 # Các định dạng được hỗ trợ
 SUPPORTED_FORMATS = {
@@ -46,6 +46,7 @@ def ytcheck():
             'geo_bypass': True,
             'youtube_include_dash_manifest': False,
             'geo_bypass_country': 'VN',
+            'cookiefile': 'www.youtube.com_cookies.txt'
         }
         with yt_dlp.YoutubeDL(yfl_opts) as f:
             ytinfo = f.extract_info(yturl, download = False)
