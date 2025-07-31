@@ -42,7 +42,9 @@ def ytcheck():
     try:
         yfl_opts = {
             'quiet': True,
-            'skip_download': True
+            'skip_download': True,
+            'geo_bypass': True,
+            'youtube_include_dash_manifest': False
         }
         with yt_dlp.YoutubeDL(yfl_opts) as f:
             ytinfo = f.extract_info(yturl, download = False)
