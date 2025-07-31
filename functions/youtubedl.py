@@ -17,7 +17,9 @@ def youtubedl(url, quality, ytdlp_progress_hook):
         'outtmpl': os.path.join(output_dỉr, '%(title)s.%(ext)s'),
         'noplaylist': True,
         'progress_hooks': [ytdlp_progress_hook],
-        'quiet': True
+        'quiet': True,
+        'geo-bypass': True,
+        'geo_bypass_country': 'VN'
         
     }
     
