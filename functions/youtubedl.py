@@ -19,7 +19,8 @@ def youtubedl(url, quality, ytdlp_progress_hook):
         'progress_hooks': [ytdlp_progress_hook],
         'quiet': True,
         'geo-bypass': True,
-        'geo_bypass_country': 'VN'
+        'geo_bypass_country': 'VN',
+        'cookiefile': 'www.youtube.com_cookies.txt'
         
     }
     
