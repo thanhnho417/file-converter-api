@@ -16,7 +16,7 @@ from functions.youtube_get_info import changetime
 app = Flask(__name__)
 CORS(app)
 
-mainserver = 'https://literate-space-fishstick-qwqvpw965xq2974j-5000.app.github.dev'
+mainserver = 'https://fantastic-memory-pxr7pxg9q47h45x-5000.app.github.dev/'
 
 # Các định dạng được hỗ trợ
 SUPPORTED_FORMATS = {
