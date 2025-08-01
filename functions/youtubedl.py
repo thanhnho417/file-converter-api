@@ -10,7 +10,7 @@ def youtubedl(url, quality, ytdlp_progress_hook):
     else:
         format_url = f'bestvideo[height<={quality}]+bestaudio/best[height<={quality}]'
     output_dỉr = 'tempfile'
-    os.makedirs(output_dỉr, exist_ok=True)
+    os.makedirs(output_dir, exist_ok=True)
     ydl_opts = {
         'format': format_url,
         'merge_output_format': 'mp4',

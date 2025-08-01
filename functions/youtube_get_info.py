@@ -3,7 +3,8 @@ import yt_dlp
 def yt_get_info_video(url):
     ydl_opts = {
         'quiet': True,
-        'skip_download': True
+        'skip_download': True,
+        'cookiefile': 'www.youtube.com_cookies.txt'
     }
     
     with yt_dlp.YoutubeDL(ydl_opts) as f:
