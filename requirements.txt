@@ -3,3 +3,4 @@ flask-cors
 werkzeug
 ffmpeg-python
 yt-dlp
+google-api-python-client
