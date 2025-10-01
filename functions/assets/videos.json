@@ -1,0 +1,187 @@
+[
+    {
+        "title": "Genshin Impact - Nod-Krai - Theme Song",
+        "thumbnail": "/media/video/gi-nk.png",
+        "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/Video/genshin/nod-krai/genshin-music.m3u8",
+        "age": "",
+        "description": "Nguồn: <a href='https://www.youtube.com/watch?v=RuXa_yxZMGI' alt='Link Youtube' style='text-decoration: none'>Youtube</a>",
+        "aspectratio": "16/9",
+        "subtitles": [
+            {
+                "label": "Tiếng Việt",
+                "srclang": "vi",
+                "src": "/media/video/gi-nk.vtt",
+                "default": true
+            }
+        ]
+    },
+    {
+        "title": "Demon Slayer - Hashira Training Arc - 08",
+        "thumbnail": "/media/video/08.png",
+        "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/assets/Demon%20Slayer/Hashira%20Training/ep8/kny-s5-ep8.m3u8",
+        "age": "THANH GƯƠM DIỆT QUỶ - PHẦN ĐẠI TRỤ ĐẶC HUẤN - TẬP 8",
+        "description": "<p>Tải về: <a href='https://054zr-my.sharepoint.com/:f:/g/personal/trieudoquoc_054zr_onmicrosoft_com/EjKhxcn8le1FjOLjLkR9ciwBN_-7gk23favvWpqG4JMq6Q?e=GgeMQY' target='_blank' id='onedrive-download'><img src='/Images/onedrive.png' alt='Onedrive' width='28'>Onedrive</a></p>",
+        "aspectratio": "16/9",
+        "subtitles": [
+            {
+                "label": "Tiếng Việt",
+                "srclang": "vi",
+                "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/assets/Demon%20Slayer/Hashira%20Training/subtitles/kny-s5-08.vtt",
+                "default": true
+            }
+        ]
+    },
+    {
+        "title": "Genshin Impact Cloud - 26/07/2025",
+        "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/Video/genshin/gic-26072025/index.m3u8",
+        "description": "",
+        "thumbnail": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/Video/genshin/gic-26072025/gic26072025.png",
+        "age": "GENSHIN IMPACT - VŨ ĐIỆU CỦA TỘI LỖI - MÀN 1"
+    },
+    {
+        "title": "Lord of the Misteries - 04",
+        "thumbnail": "/media/video/lotm04.png",
+        "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/assets/Lord%20of%20the%20Mistery/videos/ep4/lotm-ep4.m3u8",
+        "age": "TẬP 4 - CHÚA TỂ HUYỀN BÍ: QUYỂN TÊN HỀ",
+        "description": "",
+        "aspectratio": "21/9",
+        "subtitles": [
+            {
+                "label": "Tiếng Việt",
+                "srclang": "vi",
+                "src": "/sample/test9.vtt",
+                "default": true
+            }
+        ]
+    },
+    {
+        "title": "OP - Miss Kobayashi's Maid Dragon S",
+        "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/Video/Miss%20Kobayashi%20Maid%20Dragon%20S/OP-miss-kobayashi's-maid-dragon-S.m3u8",
+        "description": "",
+        "thumbnail": "/media/video/S.png",
+        "age": "Nhạc tự dịch"
+    },
+    {
+        "title": "08/03/2025 - Hậu trường",
+        "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/Video/8-3-2025/index.m3u8",
+        "description": "Behind the scenes...",
+        "thumbnail": "/media/video/83im.png"
+    },
+    {
+        "title": "GI - Geforce Now",
+        "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/Video/genshin/gen/index.m3u8",
+        "description": "",
+        "age": "GENSHIN IMPACT",
+        "thumbnail": "/media/video/g.png"
+    },
+    {
+        "title": "Trailer - Dược sư tự sự S2 ",
+        "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/Video/kusuriya/s2-trailer-2/index.m3u8",
+        "description": "",
+        "thumbnail": "/media/video/tb1.png"
+    },
+    {
+        "title": "Geforce Now - GI - 04/11/2024",
+        "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/Video/genshin/geforcenow-gi/geforcenow-gi-04112024-vid.m3u8",
+        "description": "",
+        "thumbnail": "/media/video/n-gi.png"
+    },
+    {
+        "title": "PV - Dược sư tự sự S2",
+        "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/Video/kusuriya/s2-trailer/kusuriya-no-hitorigoto-s2-trailer.m3u8",
+        "description": "",
+        "thumbnail": "/media/video/kusuriya-tr-s2.png"
+    },
+    {
+        "title": "Gacha - GI - 20/10/2024",
+        "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/Video/genshin/gacha/gi-20-10-2024.m3u8",
+        "description": "",
+        "thumbnail": "/media/video/gi-gacha.png"
+    },
+    {
+        "title": "OP - The Most Notorious \"Talker\" Runs the World's Greatest Clan",
+        "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/Video/OP-The-Most-Notorious-Talker-Runs-the-World's-Greatest-Clan/the-most-notorious-Talker-runs-the-world's-greatest-clan.m3u8",
+        "description": "",
+        "subtitles": [
+            {
+                "label": "Tiếng Anh",
+                "src": "OP-The-Most-Notorious-Talker-Runs-the-World's-Greatest-Clan.vtt",
+                "srclang": "en"
+            },
+            {
+                "label": "Tiếng Việt",
+                "src": "OP-The-Most-Notorious-Talker-Runs-the-World's-Greatest-Clan(vi).vtt",
+                "srclang": "vi"
+            }
+        ],
+        "thumbnail": "/media/video/op-a.png"
+    },
+    {
+        "title": "Tách chiết DNA",
+        "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/Video/K62/12e-project/12e-projectsinh.m3u8",
+        "description": "",
+        "thumbnail": "/media/video/12e-biology.png"
+    },
+    {
+        "title": "Tổ 2 - AI và ứng dụng",
+        "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/Video/K62/12E-to2/12e-to2-ai-va-ung-dung.m3u8",
+        "description": "",
+        "thumbnail": "/media/video/12e-ai.png"
+    },
+    {
+        "title": "[Made by AI] Ronaldo Dances Go-Getters",
+        "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/Video/made-by-ai/ronaldo/index.m3u8",
+        "description": "Created by Viggle.ai",
+        "thumbnail": "/media/video/ronaldo.png"
+    },
+    {
+        "title": "8-3-2024 - Hậu trường",
+        "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/Video/8-3-2024/8-3-2024.m3u8",
+        "description": "Behind the scenes...",
+        "thumbnail": "/media/video/08-03-2024.png"
+    },
+    {
+        "title": "10E - Liên hoan năm mới",
+        "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/Video/K62/10E-lien-hoan-nam-moi/10e-nam-moi.m3u8",
+        "description": "",
+        "thumbnail": "/media/video/newyear.png"
+    },
+    {
+        "title": "11E - Thực hành Sinh",
+        "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/Video/K62/11E-project/11e-sinh.m3u8",
+        "description": "",
+        "thumbnail": "/media/video/biology-11e-2.png"
+    },
+    {
+        "title": "[Made by AI] Hoạt hình Rùa và Thỏ",
+        "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/Video/cartoon/index.m3u8",
+        "description": "",
+        "thumbnail": "/media/video/cartoon.png"
+    },
+    {
+        "title": "OP - BATA",
+        "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/Video/bluearchivetheanimation/OP/S/index.m3u8",
+        "description": "Nhạc mở đầu TV Anime Blue Archive The Animation",
+        "age": "OP - BLUE ARCHIVE THE ANIMATION",
+        "thumbnail": "/media/video/blop.png"
+    },
+    {
+        "title": "Miku",
+        "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/Video/miku/index.m3u8",
+        "description": "",
+        "subtitles":[
+            {
+                "label": "Tiếng Anh",
+                "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/Video/Anamanaguchi%20-%20Miku%20ft.%20Hatsune%20Miku.vtt",
+                "srclang": "en"
+            }
+        ],
+        "thumbnail": "/media/video/miku.png"
+    },
+    {
+        "title": "eill - Finale",
+        "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/Video/eill-finale/index.m3u8",
+        "description": "",
+        "thumbnail": "/media/video/finale.png"
+    }
+]
