@@ -16,7 +16,7 @@ app = Flask(__name__)
 CORS(app)
 app.config['JSON_AS_ASCII'] = False
 
-mainserver = 'https://fantastic-memory-pxr7pxg9q47h45x-5000.app.github.dev/'
+mainserver = 'https://file-converter-api-ugp0.onrender.com//'
 
 # Các định dạng được hỗ trợ
 SUPPORTED_FORMATS = {
